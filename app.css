@@ -1,0 +1,17 @@
+@font-face { font-family: 'IntelOne'; src: url('./fonts/IntelOneMono-Regular.woff2'); } 
+@font-face { font-family: 'IntelOne'; font-weight: bold; src: url('./fonts/IntelOneMono-Bold.woff2');}
+@font-face { font-family: 'IntelOne'; font-weight: light; src: url('./fonts/IntelOneMono-Light.woff2');}
+@font-face { font-family: 'IntelOne'; font-weight: 500; src: url('./fonts/IntelOneMono-Medium.woff2');}
+
+.filter-blue{
+    filter: invert(41%) sepia(89%) saturate(2717%) hue-rotate(184deg) brightness(104%) contrast(104%);
+}
+
+.filter-red{
+    filter: invert(58%) sepia(45%) saturate(1010%) hue-rotate(314deg) brightness(101%) contrast(109%);
+}
+
+body {
+    font-family: 'IntelOne', Fallback, sans-serif;
+    text-underline-offset: 8px;
+}
